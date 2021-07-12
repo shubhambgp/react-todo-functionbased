@@ -1,0 +1,4 @@
+.task-completed{
+    color: rgb(146, 151, 146);
+    text-decoration: line-through;
+  }
