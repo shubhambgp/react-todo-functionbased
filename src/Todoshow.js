@@ -51,7 +51,7 @@ function Todoshow() {
                 return (
                   <tr key={id}>
                     <td>{id + 1}</td>
-                    <td className={task.status == 'active' ? "" : "task-completed"}>{task.title}</td>
+                    <td className={task.status === 'active' ? "" : "task-completed"}>{task.title}</td>
                     <td>
                         <button onClick={() => completeTask(id)} className="btn btn-success mr-2">Completed 👍</button>
                         <button onClick={() => deleteTask(id)} className="btn btn-danger">Delete 🗑️</button>
